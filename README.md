@@ -35,14 +35,17 @@ The exploratory data analysis (EDA) provided a foundation for understanding patt
 
 ## Visualization
 
-1. **Trend Over Time**: A line chart depicting changes in smoking rates by year.
-   - **Interpretation**: This shows the general trend in tobacco usage, with specific years of increase or decrease.
+1. **Trends in Tobacco-Related Measures Over Time (Line Chart)**: 
+   - This line chart illustrates changes in tobacco-related measures (e.g., "Smoking Status," "User Status") across the years. The lines for each measure reveal patterns or shifts over time, indicating trends in smoking behaviors or tobacco use within the population.
 
-2. **Demographic Comparison**: A bar plot comparing tobacco usage by age, race, and gender.
-   - **Interpretation**: Highlights which demographic groups have higher rates of tobacco use.
+2. **Breakdown of Tobacco Use by Age (Bar Plot)**: 
+   - This bar plot illustrates the demographic breakdown of tobacco use across different age groups. The x-axis represents various age categories, while the y-axis indicates the count of tobacco-related measures for each age group. Each bar is color-coded according to different measure descriptions, providing insights into how tobacco use varies among demographics.
 
-3. **Geographic Distribution**: A choropleth map showing state-wise tobacco usage rates.
-   - **Interpretation**: Identifies states with higher or lower rates, indicating geographic disparities.
+3. **Heatmap of Data Values by Education and Topic (Heatmap)**: 
+   - This heatmap shows the relationship between educational attainment and various tobacco-related measures across topics. Each cell's color intensity indicates the average value of the tobacco-related measures for each educational level, helping visualize how education may impact engagement with tobacco issues.
+
+4. **Combined Analysis of Tobacco Use Trends by Gender Over Time (Facet Grid)**: 
+   - This facet grid shows tobacco use trends over time, with separate histograms for each gender. Each subplot represents either male or female, and the stacked bars display the annual distribution for each tobacco measure, revealing any notable gender differences in smoking behaviors over the years.
 
 ## Model Development
 
@@ -70,4 +73,5 @@ This analysis demonstrates significant insights into tobacco usage patterns acro
 ## Contributors
 
 - Mike Fernando Bunag
+- Mitch
 
