@@ -39,13 +39,16 @@ The exploratory data analysis (EDA) provided a foundation for understanding patt
    ![Trends Over Time](images/trends_over_time.png)
    - This line chart illustrates changes in tobacco-related measures (e.g., "Smoking Status," "User Status") across the years. The lines for each measure reveal patterns or shifts over time, indicating trends in smoking behaviors or tobacco use within the population.
 
-3. **Breakdown of Tobacco Use by Age (Bar Plot)**: 
+2. **Breakdown of Tobacco Use by Age (Bar Plot)**:
+   ![Breakdown by Age](images/breakdown_by_age.png)
    - This bar plot illustrates the demographic breakdown of tobacco use across different age groups. The x-axis represents various age categories, while the y-axis indicates the count of tobacco-related measures for each age group. Each bar is color-coded according to different measure descriptions, providing insights into how tobacco use varies among demographics.
 
-4. **Heatmap of Data Values by Education and Topic (Heatmap)**: 
+3. **Heatmap of Data Values by Education and Topic (Heatmap)**:
+   ![Heatmap of Education and Topic](images/heatmap_education_topic.png)
    - This heatmap shows the relationship between educational attainment and various tobacco-related measures across topics. Each cell's color intensity indicates the average value of the tobacco-related measures for each educational level, helping visualize how education may impact engagement with tobacco issues.
 
-5. **Combined Analysis of Tobacco Use Trends by Gender Over Time (Facet Grid)**: 
+4. **Combined Analysis of Tobacco Use Trends by Gender Over Time (Facet Grid)**:
+   ![Gender Trends Over Time](images/gender_trends_over_time.png)
    - This facet grid shows tobacco use trends over time, with separate histograms for each gender. Each subplot represents either male or female, and the stacked bars display the annual distribution for each tobacco measure, revealing any notable gender differences in smoking behaviors over the years.
 
 ## Model Development
