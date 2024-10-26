@@ -3,7 +3,7 @@
 
 ## Dataset Description
 
-The dataset provides insights into tobacco usage across various states in the United States over multiple years. It contains information segmented by demographic factors such as age, race, gender, and education level, and measures tobacco usage (e.g., smoking status, user status) among different groups. Key fields include:
+This report delves into the intricate world of tobacco use, examining trends across various demographics and geographical regions. By analyzing a comprehensive dataset, we uncover valuable insights that can inform public health strategies and interventions.
 - `YEAR`: The year the data was collected.
 - `LocationAbbr` & `LocationDesc`: Abbreviated and full state names.
 - `TopicType` & `TopicDesc`: General and specific topic categories (e.g., “Tobacco Use – Survey Data” and “Cigarette Use (Youth)”).
@@ -14,10 +14,9 @@ The dataset provides insights into tobacco usage across various states in the Un
 - `DisplayOrder`: Numeric order for display purposes.
 
 ## Summary of Findings
-
-- The data highlights trends in tobacco usage across different demographic groups over several years.
-- Key patterns include fluctuations in smoking rates by age and educational attainment, and geographic differences in tobacco use among states.
-- Detailed visualizations and models reveal significant insights into how demographics influence tobacco use rates.
+   - **Shifting Patterns**: We observed significant fluctuations in smoking rates among different age groups and educational levels over the years.
+   - **Geographic Disparities**: Distinct regional variations in tobacco use were identified, highlighting the need for targeted interventions.
+   - **Demographic Influences**: The impact of demographic factors such as gender, race, and age on tobacco use was explored, revealing nuanced patterns.
 
 ## Data Preprocessing
 
@@ -28,12 +27,9 @@ The dataset provides insights into tobacco usage across various states in the Un
 
 ## Exploratory Data Analysis
 
-The exploratory data analysis (EDA) provided a foundation for understanding patterns in the dataset, including:
-- **Frequency Analysis**: Counted occurrences across categories such as gender, race, and age.
-- **Correlation Analysis**: Evaluated relationships between demographic variables and tobacco use metrics.
-- **Trend Analysis**: Identified temporal trends across years, helping in understanding changes in tobacco usage.
+To visualize the trends and patterns within the data, we employed a variety of visualization techniques.
 
-## Visualization
+## **Visualization**
 
 1. **Trends in Tobacco-Related Measures Over Time (Line Chart)**:
    ![Trends Over Time](images/trends_over_time.png)
@@ -51,9 +47,11 @@ The exploratory data analysis (EDA) provided a foundation for understanding patt
    ![Gender Trends Over Time](images/gender_trends_over_time.png)
    - This facet grid shows tobacco use trends over time, with separate histograms for each gender. Each subplot represents either male or female, and the stacked bars display the annual distribution for each tobacco measure, revealing any notable gender differences in smoking behaviors over the years.
 
+Through this data-driven exploration, we have gained valuable insights into the factors influencing tobacco use. By understanding these patterns, public health officials can develop targeted interventions to reduce tobacco consumption and promote healthier lifestyles.
+
 ## Model Development
 
-The following machine learning models were developed to predict tobacco usage likelihood based on demographic factors:
+To gain predictive insights, we developed several machine learning models:
 
 - **Logistic Regression**: Used to model binary tobacco use outcomes.
 - **Decision Tree**: Developed to capture complex interactions among demographic factors.
@@ -77,9 +75,11 @@ Each model was evaluated using metrics such as accuracy, precision, recall, and 
    - **Accuracy**: 1.0 or 100%
    - **Evaluation**: Gradient Boosting achieved a perfect score, similar to other models. By sequentially learning from prior errors, it effectively classified all test data points, demonstrating high adaptability and precision in handling challenging classification tasks.
 
+We rigorously evaluated the performance of these models using metrics like accuracy, precision, recall, and F1-score. These metrics provide a comprehensive assessment of the models' ability to accurately predict tobacco use.
+
 ## Conclusion
 
-This analysis demonstrates significant insights into tobacco usage patterns across demographic groups and locations. Models reveal strong predictors of tobacco use, and visualizations underscore key trends over time.
+This analysis demonstrates significant insights into tobacco usage patterns across demographic groups and locations. Models reveal strong predictors of tobacco use, and visualizations underscore key trends over time. By understanding the factors driving tobacco use, we can develop effective strategies to reduce its prevalence.
 
 ## Contributors
 
