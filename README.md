@@ -79,7 +79,7 @@ We rigorously evaluated the performance of these models using metrics like accur
 
 ## Conclusion
 
-This analysis demonstrates significant insights into tobacco usage patterns across demographic groups and locations. Models reveal strong predictors of tobacco use, and visualizations underscore key trends over time. By understanding the factors driving tobacco use, we can develop effective strategies to reduce its prevalence.
+This analysis demonstrates significant insights into tobacco usage patterns across demographic groups and locations. Models reveal strong predictors of tobacco use, and visualizations underscore key trends over time.
 
 ## Contributors
 
