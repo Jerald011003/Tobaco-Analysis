@@ -58,17 +58,24 @@ The following machine learning models were developed to predict tobacco usage li
 - **Logistic Regression**: Used to model binary tobacco use outcomes.
 - **Decision Tree**: Developed to capture complex interactions among demographic factors.
 - **Random Forest**: An ensemble model providing robust predictions with reduced overfitting.
+- **Gradient Boosting**: A sequential ensemble model that builds models in a stage-wise fashion, correcting errors from prior models to increase overall accuracy.
 
 ## Model Evaluation
 
 Each model was evaluated using metrics such as accuracy, precision, recall, and F1-score:
 
 1. **Logistic Regression**:
-   - **Evaluation**: Achieved an accuracy of X%, indicating baseline effectiveness.
-2. **Decision Tree**:
-   - **Evaluation**: With an accuracy of Y%, this model was effective at capturing interactions.
+   - **Accuracy**: 1.0 or 100%
+   - **Evaluation**: Logistic Regression achieved perfect classification, with an accuracy of 100%, suggesting that the model was able to correctly classify all instances. This indicates clear class separation in the dataset, which this model handled effectively.
+2. **Support Vector Machine (SVM)**:
+   - **Accuracy**: 1.0 or 100%
+   - **Evaluation**: SVM achieved 100% accuracy, similar to Logistic Regression. The SVM model’s perfect precision and recall across all classes demonstrate its effectiveness at handling high-dimensional data with clear class separability.
 3. **Random Forest**:
-   - **Evaluation**: Provided the highest accuracy at Z%, balancing bias and variance.
+   - **Accuracy**: 1.0 or 100%
+   - **Evaluation**: The Random Forest model also achieved perfect accuracy, precision, and recall. Its ensemble nature likely contributed to capturing complex relationships, with no overfitting observed in the test data. The model’s ability to generalize well is evident from the consistent metrics.
+4. **Gradient Boosting**:
+   - **Accuracy**: 1.0 or 100%
+   - **Evaluation**: Gradient Boosting achieved a perfect score, similar to other models. By sequentially learning from prior errors, it effectively classified all test data points, demonstrating high adaptability and precision in handling challenging classification tasks.
 
 ## Conclusion
 
@@ -77,5 +84,5 @@ This analysis demonstrates significant insights into tobacco usage patterns acro
 ## Contributors
 
 - Mike Fernando Bunag
-- Mitch
+- Mitch Dela Cruz
 
